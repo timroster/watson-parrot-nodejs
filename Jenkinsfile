@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'node:6.16' } }
+    agent { docker { image 'node:boron-alpine' } }
     stages {
         stage('build') {
             steps {
